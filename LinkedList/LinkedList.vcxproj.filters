@@ -24,12 +24,30 @@
     <ClCompile Include="ListNode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedListCycleJudment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NoCycleIntersectionChecker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListInterserctionChecker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CycleChecker.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ListNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListCycleJudment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NoCycleIntersectionChecker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListInterserctionChecker.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

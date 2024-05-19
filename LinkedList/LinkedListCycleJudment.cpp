@@ -31,14 +31,14 @@ void LinkedListCycleJudment::isCycleJudment()
 	ListNode* cycleNode1 = cycleChecker.judgeListIsCycleOne(&node_1);
 	std::cout << "使用 HASH 桶进行判断" << std::endl;
 	if (nullptr != cycleNode1)
-		std::cout << "有环的节点" << cycleNode1->val << std::endl;
+		std::cout << "有环的节点" << cycleNode1 << std::endl;
 	else
 		std::cout << "无环的节点" << std::endl;
 
 	std::cout << "使用 快慢指针 进行判断" << std::endl;
 	ListNode* cycleNode2 = cycleChecker.judgeListIsCycleTwo(&node_1);
 	if (nullptr != cycleNode2)
-		std::cout << "有环的节点" << cycleNode2->val << std::endl;
+		std::cout << "有环的节点" << cycleNode2 << std::endl;
 	else
 		std::cout << "无环的节点" << std::endl;
 }

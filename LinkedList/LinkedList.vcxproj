@@ -129,11 +129,17 @@
   <ItemGroup>
     <ClCompile Include="CycleChecker.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="LinkedListCycleJudment.cpp" />
+    <ClCompile Include="LinkedListInterserctionChecker.cpp" />
     <ClCompile Include="ListNode.cpp" />
+    <ClCompile Include="NoCycleIntersectionChecker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CycleChecker.h" />
+    <ClInclude Include="LinkedListCycleJudment.h" />
+    <ClInclude Include="LinkedListInterserctionChecker.h" />
     <ClInclude Include="ListNode.h" />
+    <ClInclude Include="NoCycleIntersectionChecker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
