@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CycleChecker.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="ListNode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CycleChecker.h" />
+    <ClInclude Include="ListNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
