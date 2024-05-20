@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedList.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="CycleChecker.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -31,6 +28,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LinkedListInterserctionChecker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CycleCheckerIntersect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CyclecCheckerIntersectJudment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,6 +54,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="LinkedListInterserctionChecker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CycleCheckerIntersect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CyclecCheckerIntersectJudment.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

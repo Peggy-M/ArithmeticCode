@@ -127,15 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CyclecCheckerIntersectJudment.cpp" />
     <ClCompile Include="CycleChecker.cpp" />
-    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="CycleCheckerIntersect.cpp" />
     <ClCompile Include="LinkedListCycleJudment.cpp" />
     <ClCompile Include="LinkedListInterserctionChecker.cpp" />
     <ClCompile Include="ListNode.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="NoCycleIntersectionChecker.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CyclecCheckerIntersectJudment.h" />
     <ClInclude Include="CycleChecker.h" />
+    <ClInclude Include="CycleCheckerIntersect.h" />
     <ClInclude Include="LinkedListCycleJudment.h" />
     <ClInclude Include="LinkedListInterserctionChecker.h" />
     <ClInclude Include="ListNode.h" />
