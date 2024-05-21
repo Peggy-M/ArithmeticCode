@@ -29,7 +29,7 @@ list<ListNode*> CyclecCheckerIntersectJudment::cycleCheckerIntersect(ListNode* n
 	ListNode* isCycle_1 = cycleChecker.judgeListIsCycleTwo(node_1);
 	ListNode* isCycle_2 = cycleChecker.judgeListIsCycleTwo(node_2);
 
-	if (nullptr != isCycle_1 && nullptr != isCycle_2)
+	if (nullptr == isCycle_1 && nullptr == isCycle_2)
 	{
 		//单链表相交
 		ListNode* interserctionNode = linkedListInterserctionChecker.nodeInterserctionCheckerTwo(isCycle_1, isCycle_2);
@@ -38,16 +38,30 @@ list<ListNode*> CyclecCheckerIntersectJudment::cycleCheckerIntersect(ListNode* n
 	}
 
 	//两个链表有环的
-	if (nullptr == isCycle_1 && nullptr == isCycle_2)
+	if (nullptr != isCycle_1 && nullptr != isCycle_2)
 	{
+		if (isCycle_1 == isCycle_2)
+		{
+			//一个入环节点
+			nodeList.push_back(isCycle_1);
+			return nodeList;
+		}
+
 		ListNode* current = node_1;
-		//一个入环节点
-		nodeList.push_back(current);
-		return nodeList;
-		//两个入环节点
-		nodeList.push_front(isCycle_1);
-		nodeList.push_front(isCycle_2);
-		return nodeList;
+		int flag = -1;
+		while (1 != flag)
+		{
+			//两个入环节点
+			if (current == isCycle_2)
+			{
+				nodeList.push_front(isCycle_1);
+				nodeList.push_front(isCycle_2);
+				return nodeList;
+			}
+			if (current == isCycle_2)
+				flag++;
+			current = current->next;
+		}
 	}
 	return nodeList;
 }

@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedList", "LinkedList\LinkedList.vcxproj", "{0E591065-1AB0-4DD6-8C6D-605CFD45C969}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinaryTree", "BinaryTree", "{CB5F3460-74DF-41B1-A153-7E76D0B55AA9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTree", "BinaryTree\BinaryTree.vcxproj", "{32949EF0-37F6-44E7-BA39-1AF8828BBA1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,12 +27,21 @@ Global
 		{0E591065-1AB0-4DD6-8C6D-605CFD45C969}.Release|x64.Build.0 = Release|x64
 		{0E591065-1AB0-4DD6-8C6D-605CFD45C969}.Release|x86.ActiveCfg = Release|Win32
 		{0E591065-1AB0-4DD6-8C6D-605CFD45C969}.Release|x86.Build.0 = Release|Win32
+		{32949EF0-37F6-44E7-BA39-1AF8828BBA1D}.Debug|x64.ActiveCfg = Debug|x64
+		{32949EF0-37F6-44E7-BA39-1AF8828BBA1D}.Debug|x64.Build.0 = Debug|x64
+		{32949EF0-37F6-44E7-BA39-1AF8828BBA1D}.Debug|x86.ActiveCfg = Debug|Win32
+		{32949EF0-37F6-44E7-BA39-1AF8828BBA1D}.Debug|x86.Build.0 = Debug|Win32
+		{32949EF0-37F6-44E7-BA39-1AF8828BBA1D}.Release|x64.ActiveCfg = Release|x64
+		{32949EF0-37F6-44E7-BA39-1AF8828BBA1D}.Release|x64.Build.0 = Release|x64
+		{32949EF0-37F6-44E7-BA39-1AF8828BBA1D}.Release|x86.ActiveCfg = Release|Win32
+		{32949EF0-37F6-44E7-BA39-1AF8828BBA1D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0E591065-1AB0-4DD6-8C6D-605CFD45C969} = {A898FF21-D9F2-4315-8321-0622D4D0D751}
+		{32949EF0-37F6-44E7-BA39-1AF8828BBA1D} = {CB5F3460-74DF-41B1-A153-7E76D0B55AA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D77F787-0F8B-42BB-87F3-6373031A368D}

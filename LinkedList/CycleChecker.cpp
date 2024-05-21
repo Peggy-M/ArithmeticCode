@@ -49,7 +49,7 @@ ListNode* CycleChecker::judgeListIsCycleTwo(ListNode* node)
 	quick = node;
 	while (quick != slow) //慢指针从相遇点开始，快指针从头开始
 	{
-		quick = quick->next;
+		quick = quick->next->next;
 		slow = slow->next;
 	}
 	return slow;

@@ -47,19 +47,26 @@ void CycleCheckerIntersect::cycleCheckerIntersect()
 	CyclecCheckerIntersectJudment cyclecCheckerIntersectJudment;
 
 	list<ListNode*> cyceCheckerListNode = cyclecCheckerIntersectJudment.cycleCheckerIntersect(&node_one_1, &node_two_1);
-
+	ListNode* node;
 	if (cyceCheckerListNode.empty())
 		cout << "抱歉，这两个链表无相交" << endl;
 	if (2 == cyceCheckerListNode.size())
 	{
 		cout << "这两个链表是有环链表并且有两个入环节点分别是: " << endl;
 		for (auto it = cyceCheckerListNode.begin(); it != cyceCheckerListNode.end(); ++it)
-			cout << *it << endl;
+		{
+			node = *it;
+			cout << "相交的地址:" << node << endl;
+			cout << "相交的值:" << node->val << endl;
+		}
+
 	}
 	if (1 == cyceCheckerListNode.size())
 	{
 		auto it = cyceCheckerListNode.begin();
 		advance(it, 0);
-		cout << "这两个链表是有环链表相交只有一个入环节点: " << *it << endl;
+		node = *it;
+		cout << "这两个链表是有环链表相交只有一个入环节点地址: " << node << endl;
+		cout << "这两个链表是有环链表相交只有一个入环节点值: " << node->val << endl;
 	}
 }
